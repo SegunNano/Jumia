@@ -100,7 +100,7 @@ body {
     height: 8.3rem;
     width: 8.3rem;
     box-shadow: 0 0 0.5em rgb(189, 189, 189);
-    border-radius: 0;
+    border-radius: 2rem;
 }
 .hover2:hover {
     text-decoration: underline;
@@ -211,6 +211,9 @@ span#call {
 }
 header {
     height: 4.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .wFont {
     font-family: Work sans, sans-serif;
